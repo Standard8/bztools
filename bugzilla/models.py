@@ -193,6 +193,7 @@ class Comment(RemoteObject):
 class Change(RemoteObject):
 
     field_name = fields.Field()
+    attachment_id = fields.Field()
     added = fields.Field()
     removed = fields.Field()
 
